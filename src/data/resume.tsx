@@ -8,56 +8,52 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "IT Engineer. I love building things and helping people. Active on Upwork, Linkedin, Twitter.",
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
   skills: [
+   
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Javascript",
+    "PHP",
+    "Laravel",
     "React",
     "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "Strapi CMS",
+    "Bagisto Extension Developer",
+    "Solidity",
+    "NFT Minting",
+    "Smart Contract Develop",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "kishankanani59@gmail.com",
+    tel: "+919624194952",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/kishanit59",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/kishankanani59",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
-        name: "X",
+        name: "Upwork",
         url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
