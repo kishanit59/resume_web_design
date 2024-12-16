@@ -63,7 +63,9 @@ export const DATA = {
   work: [
     {
       company: "Onpointe Risk Analyzer",
+      href: "#",
       badges: [],
+      logoUrl: "#",
       title: "Backend Developer",
       start: "July 2023",
       end: "Feb 2024",
@@ -72,7 +74,9 @@ export const DATA = {
     },
     {
       company: "Medvault - Hospital Management System",
+      href: "#",
       badges: [],
+      logoUrl: "#",
       title: "Backend Developer",      
       start: "Feb 2024",
       end: "April 2024",
@@ -81,8 +85,9 @@ export const DATA = {
     },
     {
       company: "Bagisto Extension Development",
-      href: "https://nvidia.com/",
+      href: "#",
       badges: [],
+      logoUrl: "#",
       title: "Backend Developer",   
       start: "May 2024",
       end: "Sep 2024",
@@ -91,7 +96,9 @@ export const DATA = {
     },
     {
       company: "Blockchain Solidity Smart Contract",
+      href: "#",
       badges: [],
+      logoUrl: "#",
       title: "Blockchain NFT Development",
       start: "Sep 2024",
       end: "Oct 2024",
@@ -100,9 +107,11 @@ export const DATA = {
     },
     {
       company: "Online Casino and Sport Betting Platform",
+      href: "#",
       badges: [],
+      logoUrl: "#",
       title: "Software Engineer",
-      start: "Nov 2024 - Currently working on this",
+      start: "Nov 2024 - Present",
       description:
         "● I have worked on an online casino and sports betting platform, focusing on developing and implementing features to ensure a seamless user experience, secure transactions, and real-time betting options for both casino games and sports events. Additionally, I worked on fetching data from APIs and saving it to the database to display real-time match information to users.",
     },
@@ -113,18 +122,24 @@ export const DATA = {
       degree: "10th Standard - SSC",
       start: "2012",
       end: "2013",
+      href: "#",
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8CPLUfuO2c2jjOaC0gqniVuIauEE8FN6opw&s",
     },
     {
       school: "St Mary's School",
       degree: "12th Standard - HSC",
       start: "2014",
       end: "2015",
+      href: "#",
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8CPLUfuO2c2jjOaC0gqniVuIauEE8FN6opw&s",
     },
     {
       school: "VVP Enginerering College",
       degree: "Bachelor's Degree of Information Technologe (BE-IT)",
       start: "2016",
       end: "2019",
+      href: "#",
+      logoUrl: "https://vvpedulink.ac.in/wp-content/uploads/2020/09/VVPLogoFi.png",
     },
   ],
   projects: [
@@ -636,4 +651,4 @@ export const DATA = {
       ],
     },
   ],
-} as const;
+};
