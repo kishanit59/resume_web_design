@@ -8,7 +8,7 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "IT Engineer. I love building things and helping people. Active on Upwork, Linkedin, Twitter.",
+    "IT Engineer. I love building things and helping people. Active on Linkedin, Twitter.",
   summary:
     "I am currently working as a PHP Laravel Developer at Brainstream Technolabs. I have expertise in Solidity and smart contract development on the Ethereum blockchain, including NFT minting. Additionally, I have developed six different extensions for Bagisto, an open-source Laravel eCommerce framework. I am also proficient in Nextjs, a framework built on Reactjs.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQG9KMP_HuQYqw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683214452050?e=2147483647&v=beta&t=74l-1Jg92Y2r94SuP6_xMZlNRmwYrHsLWrDMTtPG84M",
@@ -29,7 +29,7 @@ export const DATA = {
     "Smart Contract Develop",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/", icon: HomeIcon, label: "Home" }, 
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
@@ -112,8 +112,19 @@ export const DATA = {
       logoUrl: "#",
       title: "Software Engineer",
       start: "Nov 2024",
+      end: "Jan 2025",
       description:
         "● I have worked on an online casino and sports betting platform, focusing on developing and implementing features to ensure a seamless user experience, secure transactions, and real-time betting options for both casino games and sports events. Additionally, I worked on fetching data from APIs and saving it to the database to display real-time match information to users.",
+    },
+    {
+      company: "Leads CRM with WordPress",
+      href: "#",
+      badges: [],
+      logoUrl: "#",
+      title: "Software Engineer",
+      start: "Jan 2025",
+      description:
+        "● Developed and enhanced a CRM system integrated with WordPress forms to streamline lead generation and supplier allocation. The system supports dynamic lead categorization, location-based supplier assignment, and flexible pricing, ensuring efficient data flow, real-time supplier matching, and optimized performance.",
     },
   ],
   education: [
@@ -200,7 +211,7 @@ export const DATA = {
       dates: "May 2024 - Sep 2024",
       active: true,
       description:
-        "I have developed several extensions for the Bagisto open-source eCommerce platform, including Gift Cards, ImageCrop, ImageZoom, Supplier Info, ConvertStoreToWeb, and Product PDF Generate, to enhance functionality and customization for online stores.",
+        "I have developed several extensions for the Bagisto open-source eCommerce platform, including Gift Cards, ImageCrop, ImageZoom, Supplier Info, ConvertStoreToWeb, and Product PDF Generate, to enhance functionality and customization for online stores, Built an Instant Product View feature for instant product detail display and direct purchases, ensuring seamless UX with real-time data and intuitive navigation.",
       technologies: [
         "Bootstrap",
         "Php",
@@ -273,7 +284,7 @@ export const DATA = {
     {
       title: "Online Casino and Sport Betting Platform",
       href: "",
-      dates: "Nov 2024 - Present",
+      dates: "Nov 2024 - Jan 2025",
       active: true,
       description:
         "I have worked on an online casino and sports betting platform, focusing on developing and implementing features to ensure a seamless user experience, secure transactions, and real-time betting options for both casino games and sports events. Additionally, I worked on fetching data from APIs and saving it to the database to display real-time match information to users.",
@@ -295,6 +306,30 @@ export const DATA = {
       image: "",
       video:
         "",
+    },
+    {
+      "title": "Leads CRM with WordPress",
+      "href": "",
+      "dates": "Jan 2025 - Present",
+      "active": true,
+      "description": "Developed and enhanced a CRM system integrated with WordPress forms to streamline lead generation and supplier allocation. The system supports dynamic lead categorization, location-based supplier assignment, and flexible pricing, ensuring efficient data flow, real-time supplier matching, and optimized performance.",
+      "technologies": [
+        "Laravel",
+        "WordPress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "links": [
+        {
+          "type": "Website",
+          "href": "",
+          "icon": <Icons.globe className="size-3" />
+        }
+      ],
+      "image": "",
+      "video": ""
     },
   ],
   hackathons: [
