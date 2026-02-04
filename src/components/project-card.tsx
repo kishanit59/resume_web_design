@@ -43,12 +43,12 @@ export function ProjectCard({
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
+        "flex flex-col overflow-hidden border hover:shadow-lg hover:-translate-y-1 hover:border-black dark:hover:border-white transition-all duration-300 ease-out h-full group/card"
       }
     >
       <Link
         href={href || "#"}
-        className={cn("block cursor-pointer", className)}
+        className={cn("block cursor-pointer relative", className)}
       >
         {video && (
           <video
@@ -57,7 +57,7 @@ export function ProjectCard({
             loop
             muted
             playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            className="pointer-events-none mx-auto h-48 w-full object-cover object-top transition-transform duration-300 group-hover/card:scale-105"
           />
         )}
         {image && (
@@ -66,14 +66,14 @@ export function ProjectCard({
             alt={title}
             width={500}
             height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
+            className="h-48 w-full overflow-hidden object-cover object-top transition-transform duration-300 group-hover/card:scale-105"
           />
         )}
       </Link>
-      <CardHeader className="px-2">
+      <CardHeader className="px-4 py-4">
         <div className="space-y-1">
-          <CardTitle className="mt-1 text-base">{title}</CardTitle>
-          <time className="font-sans text-xs">{dates}</time>
+          <CardTitle className="mt-1 text-lg group-hover/card:text-primary transition-colors">{title}</CardTitle>
+          <time className="font-sans text-xs text-muted-foreground">{dates}</time>
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
@@ -82,7 +82,7 @@ export function ProjectCard({
           </Markdown>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex flex-col px-2">
+      <CardContent className="mt-auto flex flex-col px-4">
         {tags && tags.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-1">
             {tags?.map((tag) => (
@@ -97,7 +97,7 @@ export function ProjectCard({
           </div>
         )}
       </CardContent>
-      <CardFooter className="px-2 pb-2">
+      <CardFooter className="px-4 pb-4 mt-2">
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
             {links?.map((link, idx) => (
