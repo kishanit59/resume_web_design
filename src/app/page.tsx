@@ -164,7 +164,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                During my time at university, I attended numerous seminars related to social media marketing, participated in technical events, and attended seminars on future IT trends. I was also a part of the Internshala Student Partner (ISP 8.0) during my college days. In my 6th semester, I participated in the GTU Student Exchange Program, where I studied two subjects at Laurentian University in Sudbury, Canada, for 2.5 months.
+                  During my time at university, I attended numerous seminars related to social media marketing, participated in technical events, and attended seminars on future IT trends. I was also a part of the Internshala Student Partner (ISP 8.0) during my college days. In my 6th semester, I participated in the GTU Student Exchange Program, where I studied two subjects at Laurentian University in Sudbury, Canada, for 2.5 months.
                 </p>
               </div>
             </div>

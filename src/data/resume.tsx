@@ -13,7 +13,7 @@ export const DATA = {
     "I am currently working as a PHP Laravel Developer at Brainstream Technolabs. I have expertise in Solidity and smart contract development on the Ethereum blockchain, including NFT minting. Additionally, I have developed six different extensions for Bagisto, an open-source Laravel eCommerce framework. I am also proficient in Nextjs, a framework built on Reactjs.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQG9KMP_HuQYqw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683214452050?e=2147483647&v=beta&t=74l-1Jg92Y2r94SuP6_xMZlNRmwYrHsLWrDMTtPG84M",
   skills: [
-   
+
     "HTML",
     "CSS",
     "Bootstrap",
@@ -29,7 +29,7 @@ export const DATA = {
     "Smart Contract Develop",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" }, 
+    { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
@@ -77,7 +77,7 @@ export const DATA = {
       href: "#",
       badges: [],
       logoUrl: "#",
-      title: "Backend Developer",      
+      title: "Backend Developer",
       start: "Feb 2024",
       end: "April 2024",
       description:
@@ -88,7 +88,7 @@ export const DATA = {
       href: "#",
       badges: [],
       logoUrl: "#",
-      title: "Backend Developer",   
+      title: "Backend Developer",
       start: "May 2024",
       end: "Sep 2024",
       description:
@@ -123,8 +123,53 @@ export const DATA = {
       logoUrl: "#",
       title: "Software Engineer",
       start: "Jan 2025",
+      end: "Sept 2025",
       description:
         "● Developed and enhanced a CRM system integrated with WordPress forms to streamline lead generation and supplier allocation. The system supports dynamic lead categorization, location-based supplier assignment, and flexible pricing, ensuring efficient data flow, real-time supplier matching, and optimized performance.",
+    },
+    {
+      company: "Shopify Theme & App Development Learning",
+      href: "#",
+      badges: [],
+      logoUrl: "#",
+      title: "Self-Learning & Development",
+      start: "Sept 2025",
+      end: "Oct 2025",
+      description:
+        "● Started learning Shopify theme and app development. Built a custom Shopify theme called 'Elixa Jewels' using Liquid and Online Store 2.0. Learned the basics of React.js and Node.js, and how to integrate them with Shopify's Polaris UI and GraphQL API. This helped me to build practice apps and understand the Shopify ecosystem better.",
+    },
+    {
+      company: "OdooStream OdooSync Utility",
+      href: "https://apps.shopify.com/odoostream-odoosync-utility",
+      badges: [],
+      logoUrl: "#",
+      title: "Shopify Developer",
+      start: "Oct 2025",
+      end: "Nov 2025",
+      description:
+        "● Developing the OdooStream OdooSync Utility app to automate real-time data synchronization between Shopify and Odoo ERP. Implementing robust data flows for customers, products, and orders using React.js, Node.js, and Shopify's GraphQL API. Ensuring seamless integration within the Shopify admin using Polaris components.",
+    },
+    {
+      company: "Labelly - Product Label & Badge",
+      href: "https://apps.shopify.com/labelly-product-label-badge",
+      badges: [],
+      logoUrl: "#",
+      title: "Shopify Developer",
+      start: "Nov 2025",
+      end: "Nov 2025",
+      description:
+        "● Worked on Labelly, a Shopify app that allows merchants to add custom labels, badges, and stickers to product and collection pages. Implemented a tiered subscription model (Free vs. Pro) with distinct capabilities. Engineered advanced customization features including sticker animation, opacity adjustments, and resizing logic. Built using React.js, Node.js, and Shopify Polaris.",
+    },
+    {
+      company: "Handwertig ERP System",
+      href: "#",
+      badges: [],
+      logoUrl: "#",
+      title: "Backend Developer",
+      start: "Dec 2025",
+      end: "Present",
+      description:
+        "● Working on Handwertig, a comprehensive ERP system for managing internal business operations. Developed modules for task communication, lead creation and assignment, employee time tracking, leave management, backup handling, and automated email templates for various workflows. Built using modern web technologies to streamline organizational processes.",
     },
   ],
   education: [
@@ -160,7 +205,7 @@ export const DATA = {
       dates: "July 2023 - Feb 2024",
       active: true,
       description:
-      " The Onpoint Risk Analyzer is a comprehensive retirement planning tool that allows users to input financial data, policies, insurance, and tax filings, generate a PDF document with this information, and assess their investment risk through a calculated risk score based on factors like mutual funds, ETFs, asset allocation, market conditions, and historical performance.",
+        " The Onpoint Risk Analyzer is a comprehensive retirement planning tool that allows users to input financial data, policies, insurance, and tax filings, generate a PDF document with this information, and assess their investment risk through a calculated risk score based on factors like mutual funds, ETFs, asset allocation, market conditions, and historical performance.",
       technologies: [
         "Html,CSS",
         "Bootstrap",
@@ -310,7 +355,7 @@ export const DATA = {
     {
       "title": "Leads CRM with WordPress",
       "href": "",
-      "dates": "Jan 2025 - Present",
+      "dates": "Jan 2025 - Sept 2025",
       "active": true,
       "description": "Developed and enhanced a CRM system integrated with WordPress forms to streamline lead generation and supplier allocation. The system supports dynamic lead categorization, location-based supplier assignment, and flexible pricing, ensuring efficient data flow, real-time supplier matching, and optimized performance.",
       "technologies": [
@@ -330,6 +375,107 @@ export const DATA = {
       ],
       "image": "",
       "video": ""
+    },
+    {
+      title: "Shopify Theme & App Learning",
+      href: "#",
+      dates: "Sept 2025 - Oct 2025",
+      active: true,
+      description:
+        "Comprehensive study of Shopify development. Built 'Elixa Jewels', a custom Shopify theme using Liquid and Online Store 2.0. Learned React.js and Node.js basics, integrating them with Shopify's Polaris UI and GraphQL API to build practice apps. This foundation enabled advanced app development work.",
+      technologies: [
+        "Shopify Theme",
+        "Liquid",
+        "Online Store 2.0",
+        "React.js",
+        "Node.js",
+        "Polaris",
+        "GraphQL"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "OdooStream OdooSync Utility",
+      href: "https://apps.shopify.com/odoostream-odoosync-utility",
+      dates: "Oct 2025 - Nov 2025",
+      active: true,
+      description:
+        "Developing a specialized Shopify app for real-time synchronization with Odoo ERP. Key features include automated sync for customers, products, and orders, error handling, and a dashboard UI built with Polaris. Leveraging GraphGL and Node.js for high-performance data handling.",
+      technologies: [
+        "Shopify App",
+        "React.js",
+        "Node.js",
+        "GraphQL",
+        "Polaris",
+        "Odoo ERP"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://apps.shopify.com/odoostream-odoosync-utility",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Labelly - Product Label & Badge",
+      href: "https://apps.shopify.com/labelly-product-label-badge",
+      dates: "Nov 2025",
+      active: true,
+      description:
+        "Created a Shopify application for enhancing product visuals with labels and badges. Features include a drag-and-drop interface, real-time preview, and different placement options (Product/Collection pages). Implemented subscription-based feature gating: Free plan includes basic usage, while Pro plan unlocks unlimited stickers and advanced customization properties like animation and opacity.",
+      technologies: [
+        "Shopify App",
+        "React.js",
+        "Node.js",
+        "GraphQL",
+        "Polaris",
+        "Prisma"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://apps.shopify.com/labelly-product-label-badge",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Handwertig ERP System",
+      href: "#",
+      dates: "Dec 2025 - Present",
+      active: true,
+      description:
+        "Developing a comprehensive ERP solution for internal business management. Key features include task communication system, lead creation and assignment workflow, employee time tracking, leave application management, automated backup handling, and customizable email templates for all system tasks. Focused on creating an efficient, all-in-one platform for organizational operations.",
+      technologies: [
+        "PHP",
+        "Laravel",
+        "React.js",
+        "MySQL",
+        "Bootstrap",
+        "REST API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
     },
   ],
   hackathons: [

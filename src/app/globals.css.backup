@@ -77,13 +77,7 @@
 }
 
 h3 code {
-  @apply !text-lg;
-}
-
-@screen md {
-  h3 code {
-    @apply !text-xl;
-  }
+  @apply !text-lg md: !text-xl;
 }
 
 pre {
