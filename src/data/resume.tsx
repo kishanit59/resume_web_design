@@ -203,7 +203,7 @@ export const DATA = {
       start: "2016",
       end: "2019",
       href: "#",
-      logoUrl: "https://vvpedulink.ac.in/wp-content/uploads/2020/09/VVPLogoFi.png",
+      logoUrl: "/college.jpeg",
     },
   ],
   projects: [
