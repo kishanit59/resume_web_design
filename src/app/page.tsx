@@ -43,7 +43,7 @@ export default function Page() {
               </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="flex justify-center md:justify-end w-full">
-              <Avatar className="size-48 md:size-80 border-4 border-background shadow-2xl rounded-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
+              <Avatar className="size-32 md:size-80 border-4 border-background shadow-2xl rounded-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-cover" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
@@ -113,6 +113,20 @@ export default function Page() {
               />
             </BlurFade>
           ))}
+        </div>
+      </section>
+
+      {/* University Highlights */}
+      <section id="university-highlights" className="max-w-5xl mx-auto w-full">
+        <div className="flex min-h-0 flex-col gap-y-8">
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <h2 className="text-2xl font-bold tracking-tight">University Highlights</h2>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 10}>
+            <div className="prose max-w-full text-pretty font-sans text-base text-muted-foreground dark:prose-invert leading-relaxed">
+              <Markdown>{DATA.universityHighlights}</Markdown>
+            </div>
+          </BlurFade>
         </div>
       </section>
 

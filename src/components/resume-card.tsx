@@ -57,7 +57,7 @@ export const ResumeCard = ({
         </div>
         <div className="flex-grow ml-4 items-center flex-col group">
           <CardHeader>
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-x-4 text-base">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-x-4 text-base">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                 {title}
                 {badges && (
@@ -80,7 +80,7 @@ export const ResumeCard = ({
                   )}
                 />
               </h3>
-              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-left sm:text-right w-full sm:w-auto mt-1 sm:mt-0">
                 {period}
               </div>
             </div>
