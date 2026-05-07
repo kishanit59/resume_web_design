@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "IT Engineer. I love building things and helping people. Active on Linkedin, Twitter.",
   summary:
-    "I am currently working as a PHP Laravel Developer at Brainstream Technolabs. I have expertise in Solidity and smart contract development on the Ethereum blockchain, including NFT minting. Additionally, I have developed six different extensions for Bagisto, an open-source Laravel eCommerce framework. I am also proficient in Nextjs, a framework built on Reactjs.",
+    "I am currently working as a PHP Laravel Developer. I have expertise in Solidity and smart contract development on the Ethereum blockchain, including NFT minting. Additionally, I have developed six different extensions for Bagisto, an open-source Laravel eCommerce framework. I am also proficient in Nextjs, a framework built on Reactjs.",
   universityHighlights: "During my time at university, I attended numerous seminars related to social media marketing, participated in technical events, and attended seminars on future IT trends. I was also a part of the Internshala Student Partner (ISP 8.0) during my college days. In my 6th semester, I participated in the GTU Student Exchange Program, where I studied two subjects at Laurentian University in Sudbury, Canada, for 2.5 months.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQG9KMP_HuQYqw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683214452050?e=2147483647&v=beta&t=74l-1Jg92Y2r94SuP6_xMZlNRmwYrHsLWrDMTtPG84M",
   skills: [
